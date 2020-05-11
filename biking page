@@ -1,0 +1,10 @@
+// Biking PAge Documentation
+
+$w.onReady(function () {
+	let imageElements = $w("Image");
+
+let firstImage = imageElements[0];
+$w("Image").onDblClick( (event) => {
+  let targetId = event.target.id; // "myElement"
+} );
+});
